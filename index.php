@@ -127,4 +127,48 @@ if($key ==  'A3FS7J') {
 	}
 );
 
+
+
+$f3->route('GET /mcdonalds',
+	function($f3) {
+		$track = array();
+		foreach (getallheaders() as $name => $value) {
+    $track[$name] = $value;
+}
+
+$track['time'] = date("Y-m-d H:i:s");
+			
+			$db=new DB\Jig('db/data/',DB\Jig::FORMAT_JSON);
+			$mcdonalds=new DB\Jig\Mapper($db,'mcdonalds');
+			$mcdonalds->load(array('@mcdonalds=?',1));
+			$mcdonalds->visit++;
+
+			$tracks = $mcdonalds->visits;
+			$tracks[] = $track;
+			$mcdonalds->visits = $tracks;
+
+			$mcdonalds->save();
+
+		$f3->reroute('http://www.paywithisis.com/');	
+	}
+);
+
+
+$f3->route('GET /mcdonalds/stats',
+	function($f3) {
+		$db=new DB\Jig('db/data/',DB\Jig::FORMAT_JSON);
+			$mcdonalds=new DB\Jig\Mapper($db,'mcdonalds');
+			$mcdonalds->load(array('@mcdonalds=?',1));
+			
+			$f3->set('visit', $mcdonalds->visit );
+			$f3->set('visits', $mcdonalds->visits );
+
+			
+
+		// Render HTML layout
+		echo Template::instance()->render('stats.htm');	
+	}
+);
+
+
 $f3->run();

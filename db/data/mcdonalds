@@ -1,0 +1,85 @@
+[
+    {
+        "mcdonalds": 1,
+        "visit": 23,
+        "visits": [
+            {
+                "Host": "spin.2win.co",
+                "Connection": "keep-alive",
+                "Cache-Control": "max-age=0",
+                "Accept": "text\/html,application\/xhtml+xml,application\/xml;q=0.9,*\/*;q=0.8",
+                "User-Agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/29.0.1547.57 Safari\/537.36 FirePHP\/4Chrome",
+                "Accept-Encoding": "gzip,deflate,sdch",
+                "Accept-Language": "en-US,en;q=0.8",
+                "Cookie": "__cfduid=d304fb88d9da087f33484bac2f8ab72201371674304; _ga=GA1.2.1259753375.1372091802",
+                "X-FirePHP-Version": "0.0.6",
+                "X-Wf-Max-Combined-Size": "262144",
+                "time": "2013-08-30 11:55:44"
+            },
+            {
+                "Host": "spin.2win.co",
+                "Connection": "keep-alive",
+                "Accept": "text\/html,application\/xhtml+xml,application\/xml;q=0.9,*\/*;q=0.8",
+                "User-Agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/29.0.1547.57 Safari\/537.36 FirePHP\/4Chrome",
+                "Accept-Encoding": "gzip,deflate,sdch",
+                "Accept-Language": "en-US,en;q=0.8",
+                "Cookie": "__cfduid=d304fb88d9da087f33484bac2f8ab72201371674304; _ga=GA1.2.1259753375.1372091802",
+                "X-FirePHP-Version": "0.0.6",
+                "X-Wf-Max-Combined-Size": "262144",
+                "time": "2013-08-30 12:00:03"
+            },
+            {
+                "Host": "spin.2win.co",
+                "Connection": "keep-alive",
+                "Cache-Control": "max-age=0",
+                "Accept": "text\/html,application\/xhtml+xml,application\/xml;q=0.9,*\/*;q=0.8",
+                "User-Agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/29.0.1547.57 Safari\/537.36 FirePHP\/4Chrome",
+                "Accept-Encoding": "gzip,deflate,sdch",
+                "Accept-Language": "en-US,en;q=0.8",
+                "Cookie": "__cfduid=d304fb88d9da087f33484bac2f8ab72201371674304; _ga=GA1.2.1259753375.1372091802",
+                "X-FirePHP-Version": "0.0.6",
+                "X-Wf-Max-Combined-Size": "262144",
+                "time": "2013-08-30 12:00:19"
+            },
+            {
+                "Host": "spin.2win.co",
+                "Connection": "keep-alive",
+                "Cache-Control": "max-age=0",
+                "Accept": "text\/html,application\/xhtml+xml,application\/xml;q=0.9,*\/*;q=0.8",
+                "User-Agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/29.0.1547.57 Safari\/537.36 FirePHP\/4Chrome",
+                "Accept-Encoding": "gzip,deflate,sdch",
+                "Accept-Language": "en-US,en;q=0.8",
+                "Cookie": "__cfduid=d304fb88d9da087f33484bac2f8ab72201371674304; _ga=GA1.2.1259753375.1372091802",
+                "X-FirePHP-Version": "0.0.6",
+                "X-Wf-Max-Combined-Size": "262144",
+                "time": "2013-08-30 12:02:16"
+            },
+            {
+                "Host": "spin.2win.co",
+                "Connection": "keep-alive",
+                "Cache-Control": "max-age=0",
+                "Accept": "text\/html,application\/xhtml+xml,application\/xml;q=0.9,*\/*;q=0.8",
+                "User-Agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/29.0.1547.57 Safari\/537.36 FirePHP\/4Chrome",
+                "Accept-Encoding": "gzip,deflate,sdch",
+                "Accept-Language": "en-US,en;q=0.8",
+                "Cookie": "__cfduid=d304fb88d9da087f33484bac2f8ab72201371674304; _ga=GA1.2.1259753375.1372091802",
+                "X-FirePHP-Version": "0.0.6",
+                "X-Wf-Max-Combined-Size": "262144",
+                "time": "2013-08-30 12:02:18"
+            },
+            {
+                "Host": "spin.2win.co",
+                "Connection": "keep-alive",
+                "Cache-Control": "max-age=0",
+                "Accept": "text\/html,application\/xhtml+xml,application\/xml;q=0.9,*\/*;q=0.8",
+                "User-Agent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/29.0.1547.57 Safari\/537.36 FirePHP\/4Chrome",
+                "Accept-Encoding": "gzip,deflate,sdch",
+                "Accept-Language": "en-US,en;q=0.8",
+                "Cookie": "__cfduid=d304fb88d9da087f33484bac2f8ab72201371674304; _ga=GA1.2.1259753375.1372091802",
+                "X-FirePHP-Version": "0.0.6",
+                "X-Wf-Max-Combined-Size": "262144",
+                "time": "2013-08-30 12:02:32"
+            }
+        ]
+    }
+]
