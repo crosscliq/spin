@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript">
+
+		  function callback () {	
+			 console.log('loaded body');
+		    setTimeout( document.querySelector('#frame').style.opacity="1" , 114000);
+
+		    		  }
+
+		</script>
+</head>
+<body onLoad=" window.scroll(0,1);callback();" style="-webkit-transition-delay:18s;background: #fff url(bgfirst.png);  background-size:cover;background-position:center;  color:#fff; margin:0px;">
+<iframe id="frame" src="page2.html" onload="console.log('loaded iframe');" style="transition-delay:12s;-webkit-transition: all 2.8s ease-out; opacity:0; height:100%; width:100%;  position:absolute; top:0; left:0;" frameborder="no">
+		<script type="text/javascript">
+
+		  function callback () {	
+			 console.log('loaded body');
+		    setTimeout( document.querySelector('#frame').style.opacity="1" , 2000);
+
+		    		  }
+		 window.addEventListener("load", callback, false);
+		</script>
+</body>
+</html>
