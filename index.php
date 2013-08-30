@@ -132,7 +132,7 @@ if($key ==  'A3FS7J') {
 $f3->route('GET /mcdonalds',
 	function($f3) {
 		$track = array();
-		foreach (getallheaders() as $name => $value) {
+		foreach ($_SERVER  as $name => $value) {
     $track[$name] = $value;
 }
 
